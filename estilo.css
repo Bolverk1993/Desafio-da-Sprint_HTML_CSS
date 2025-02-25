@@ -1,9 +1,9 @@
 #cabecalho{
+    box-sizing: border-box;
+    border: solid;
     background-color: linear-gradient(#1b357e #1351d8);
-    background-size: contain;
     width: 100%;
-    height: 50px;
-    background-image: url(img/logo-ford-256.png);
-    background-repeat: no-repeat;
-  
+    padding: auto;
+    height: 100px;  
+    image-rendering: 10%;
 }
