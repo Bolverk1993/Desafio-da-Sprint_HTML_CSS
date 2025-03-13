@@ -101,15 +101,27 @@ body {
 
 /* responsividade */
 @media(max-width:786px){
-    .imagem_destaque{
-    max-width: 100%;
-    }
+    
 
-    .container h1{
-        font-size: medium;
+    #cabecalho{
+        gap: 5%;
+    }
+    .menu ul{
+       
+        padding-left: 0;
+        margin-left: 0;
+
     }
 
     .menu li{
         font-size: small;
+        text-align: left;
+
     }
+
+    #miolo img{
+        max-width: 90%;
+        height: auto;
+        padding-top:60%;
+        }
 }
