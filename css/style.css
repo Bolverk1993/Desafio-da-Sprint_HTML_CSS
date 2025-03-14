@@ -1,8 +1,8 @@
-*{
+/* *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-}
+} */
 body {
     box-sizing: border-box;
     background-color: white;
@@ -21,9 +21,8 @@ body {
     gap: 25%;
     box-sizing: border-box;
     border: solid;
-    overflow-x: hidden;
+    overflow: hidden;
     background-color: white;
-    /* linear-gradient(#1b357e #1351d8); */
     width: 100%;
     padding: 15px;
     height: 80px;  
@@ -32,6 +31,7 @@ body {
    
 }
 #cabecalho img{    
+    margin-left: 35px;
     max-width: 130px;
     height: auto;
 }
@@ -47,6 +47,7 @@ body {
 
 .menu li{
     margin-right: 20px;
+ 
 }
 
 .menu a{
@@ -71,12 +72,16 @@ body {
     flex-direction: column;
     text-align: center;
     gap: 5px;
-    font-size: 12px;
+    
 }
 #miolo img{
    padding-top: 10%;
     max-width: 75%;
     height: auto;
+}
+
+.principal_descricao{
+    font-size: 12px;
 }
 
 #rodape{
@@ -85,7 +90,6 @@ body {
     align-items: center;
     bottom: 0;
     box-sizing: border-box;
-    position: fixed;
     background-color:#1b357e;
     text-align: left;
     width: 100%;
@@ -99,29 +103,19 @@ body {
     transform: scale(0.5);
 }
 
-/* responsividade */
-@media(max-width:786px){
-    
-
-    #cabecalho{
-        gap: 5%;
-    }
-    .menu ul{
-       
-        padding-left: 0;
-        margin-left: 0;
-
-    }
-
-    .menu li{
-        font-size: small;
-        text-align: left;
-
-    }
-
-    #miolo img{
-        max-width: 90%;
-        height: auto;
-        padding-top:60%;
-        }
+.copyright{
+    padding-left: 15%;
+margin: auto;
 }
+
+.git{
+    text-decoration: none;
+    color: white;
+}
+
+
+.link__externo{
+margin: auto;
+}
+
+

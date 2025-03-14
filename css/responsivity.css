@@ -1,0 +1,53 @@
+@media(max-width:786px){
+    
+
+    #cabecalho{
+        gap: 5%; 
+        overflow: hidden;
+    }
+
+    #cabecalho img{
+        align-items: left;
+        padding: 0;
+        margin: 0;
+        transform:scale(0.65) ;
+    }
+
+    .menu ul{
+       
+        padding-left: 0;
+        margin-left: 0;
+
+    }
+
+    .menu li{
+        font-size: 65%;
+        text-align: left;
+
+    }
+
+    #miolo img{
+        max-width: 90%;
+        height: auto;
+        padding-top:60%;
+        }
+
+.principal_descricao{
+    font-size: 85%;
+}
+
+#cabecalho{
+max-width: 100%;
+overflow: hidden;
+}
+
+.copyright{
+  
+    font-size: 80%;
+   
+}
+
+.redes{
+    font-size: 80%;
+}
+}
