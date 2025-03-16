@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsivity.css">
+    <link rel="stylesheet" href="../css/contato.css">
     <script src="app.js" defer></script>
     <link rel="icon" type="image/x-icon" href="../img/ford-96.png">
     <title>Contato</title>
@@ -24,10 +25,26 @@
         </div>
     </header>
 
-    
+
 
 <main>
 
+    <div class="container_formulario">
+        <div>
+            <img src="../img/XL Cabine.jpg" alt="XL Cabine">
+        </div>
+        <form>
+            <label id= "titulo" for="formulario">Sobre Você</label>
+            <input type="text" name="nome" placeholder="Nome do usuário">
+            <input type="email" name="email" placeholder="E-mail para contato">
+            <input type="text" name="telefone" placeholder="Telefone">
+            <label for="tipo_do_contato">tipo do contato:</label>
+           <select name="tipo_do_contato" id="tipo_do_contato"><option value="Elogio">Elogio</option><option value="Reclamação">Reclamação</option><option value="solicitacao">solicitação</option></select>
+           <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Digite aqui sua menssagem"></textarea>
+           <button class="botao">Enviar</button>
+        </form>
+       
+    </div>
 
 </main>
 

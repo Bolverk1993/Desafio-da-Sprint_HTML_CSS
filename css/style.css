@@ -118,4 +118,19 @@ margin: auto;
 margin: auto;
 }
 
+.botao{
+    color: white;
+    background-color: #1b357e;
+    max-width: 100px;
+    border-radius: 8px;
+    border: 1px solid;
+    height: 25px;
+    text-align: center;
+    margin-left: 50%;
+}
+
+.botao:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
 

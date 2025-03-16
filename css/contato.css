@@ -1,0 +1,25 @@
+header{
+    margin-top: 100px;
+}
+.container_formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+form{
+ display: grid;
+ gap: 12px;
+}
+input, select{
+    height: 30px;
+}
+
+label{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#titulo{
+    font-size: 35px;
+    font-weight: bold;
+}
+

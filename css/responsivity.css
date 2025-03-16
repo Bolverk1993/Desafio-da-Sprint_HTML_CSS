@@ -32,22 +32,33 @@
         padding-top:60%;
         }
 
-.principal_descricao{
-    font-size: 85%;
-}
+    .principal_descricao{
+        font-size: 85%;
+    }
 
-#cabecalho{
-max-width: 100%;
-overflow: hidden;
-}
+    #cabecalho{
+    max-width: 100%;
+    overflow: hidden;
+    }
 
-.copyright{
-  
-    font-size: 80%;
-   
-}
+    .copyright{
+    
+        font-size: 80%;
+    
+    }
 
-.redes{
-    font-size: 80%;
-}
+    .redes{
+        font-size: 80%;
+    }
+
+    .container_tabela{
+        overflow-y: scroll;
+    transform: scale(.8);
+    }
+
+    .container_formulario{
+        display: block !important;
+    }
+    
+
 }

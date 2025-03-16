@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+}
+.video{
+margin: 0 auto;
+width: 90%;
+height: auto; 
+align-items: center;
+
+}
+.container__tabela{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    
+}
+
+table{
+    min-width: 100%;
+    transform: scale(0.8);
+    border: 2px solid ;
+    padding: 1%;
+    align-items: center;
+    text-align: center;
+}
+
+.check{
+    transform: scale(1.5);
+}
+
+span{
+    font-size: 25px;
+    color: #1b357e;
+}
+
+.decricao{
+    font-size: 14px;
+    color: #1351d8;
+}
+
+
