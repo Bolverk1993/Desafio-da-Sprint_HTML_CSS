@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+
+
 header{
     margin-top: 100px;
 }
@@ -14,6 +17,8 @@ input, select{
 }
 
 label{
+
+      font-family: "Big Shoulders Stencil", sans-serif;
     font-weight: bold;
     text-transform: capitalize;
 }
