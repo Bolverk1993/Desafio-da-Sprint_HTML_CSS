@@ -1,13 +1,14 @@
 body{
     height: 100vh;
 }
+
 .video{
 margin: 0 auto;
 width: 90%;
 height: auto; 
 align-items: center;
-
 }
+
 .container__tabela{
     display: flex;
     flex-direction: column;
